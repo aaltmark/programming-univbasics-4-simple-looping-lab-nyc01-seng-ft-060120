@@ -8,8 +8,7 @@ end
 
 def loop_message_n_times(string, n)
   count = 0
-  loop do
-    break if count > n
+  while count < n do
     puts "Hello moon."
     count += 1
   end
@@ -27,6 +26,6 @@ def return_string_array(array)
   counter = 0
   while counter < array.length do
     string = array[counter].to_s
-    p string
+    count += 1
   end
 end
